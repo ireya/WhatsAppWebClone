@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <img src="profile-main.jpg" class="profile-pic"> 
+                <span>Chats</span>
+                <div class="nav-icon">☰</div>
+            </div>
+            <div class="chat-list">
+                <div class="chat-item" data-chat="rose"><img src="profile1.jpg" class="profile-pic"> Rose</div>
+                <div class="chat-item" data-chat="lisa"><img src="profile2.jpg" class="profile-pic"> Lisa</div>
+                <div class="chat-item" data-chat="jisoo"><img src="profile3.jpg" class="profile-pic"> Jisoo</div>
+                <div class="chat-item" data-chat="jennie"><img src="profile4.jpg" class="profile-pic"> Jennie</div>
+                <div class="chat-item" data-chat="jungkook"><img src="profile5.jpg" class="profile-pic"> Jungkook</div>
+                <div class="chat-item" data-chat="jimin"><img src="profile6.jpg" class="profile-pic"> Jimin</div>
+            </div>
+        </div>
+        <div class="chat-window">
+            <div class="chat-header"><img src="profile6.jpg" class="profile-pic" id="chat-header-pic"> <span id="chat-header-name">Rose</span></div>
+            <div class="chat-messages" id="chat-messages"></div>
+            <div class="message-input-container">
+                <input type="text" class="message-input" id="message-input" placeholder="Enter your message">
+                <button id="send-button">➤</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
